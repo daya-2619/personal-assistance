@@ -55,12 +55,13 @@ image_label.grid(row=1, column=0, pady=20)
 # adding text 
 # Remove text.place(...) and use grid instead
 text = Text(root, font=('courier 1 bold '), bg="#5fd6c1", fg="white")
-text.grid(row=2, column=0, columnspan=2, padx=20, pady=10, sticky="nsew")
+text.grid(row=2, column=0)
+text.place(x=65,y=375,width=375,height=100)
 
 
 # entry widget
 entry = Entry(root, justify=CENTER)
-entry.grid(row=3, column=0, columnspan=2, padx=60, pady=(0, 10), sticky="ew")
+entry.place(x=75,y=500,width=350,height=50)
 
 # button
 Button1 = Button(root, text="Ask",bg="#11B59C",pady=16,padx=40,borderwidth=3 , relief=SOLID,command = ask)
