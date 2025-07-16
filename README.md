@@ -1,4 +1,4 @@
-# Personal Desktop Assistance
+# Personal Desktop Assistance (Gen)
 
 A Python-based virtual assistant with a GUI, speech-to-text, and text-to-speech capabilities. This assistant helps users interact with their desktop using voice commands and visual guidance.
 
